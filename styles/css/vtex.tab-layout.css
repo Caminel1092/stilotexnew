@@ -1,0 +1,52 @@
+.contentContainer{
+    background: #e3e3e3;
+}
+.listItemActive {
+    background: #e3e3e3;
+}
+.listItem  {
+    margin : 0 0 -5px 0;
+    border-top-right-radius: 18px;
+    border-top-left-radius: 18px;
+} 
+.listItem:focus {
+    border:none;
+}
+.listItem :global(.vtex-button__label){
+    color: black;
+}
+.container--product .listContainer {
+    justify-content: initial;
+}
+.container--product{
+    margin: 0 100px 0 100px;
+}
+.container--product .contentItem {
+    padding: 2% 2% 2% 2%;
+}
+.container--product .listItemActive{
+    background: #f8f7f7;
+    padding: 0 10px;
+}
+.container--product .contentContainer{
+    background: #f8f7f7;
+}
+.container--product .listItem :global(.vtex-button__label){
+    color: black;
+    padding: 10px 15px !important;
+}
+.specificationName {
+    display: none;
+}
+.specificationName {
+    display: none;
+}
+
+.specificationValue--first {
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.groupName {
+    display: none;
+}

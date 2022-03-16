@@ -1,0 +1,1167 @@
+{
+  "store.home": {
+    "blocks": [
+      "slider-layout#text-test",
+      "rich-text#title1",
+      "slider-layout#bannermarcas",
+      "rich-text#title2",
+      "shelf.relatedProducts",
+      //"shelf#demo0",
+      "shelf#demo1",
+      "tab-layout#home",
+      "rich-text#title3",
+      "slider-layout#text-marca",
+      "rich-text#title4",
+      "flex-layout.row#home1",
+      "flex-layout.row#home2",
+      "flex-layout.row#home3",
+      "flex-layout.row#home4",
+      "flex-layout.row#home5",
+      "flex-layout.row#medios"
+    ],
+    "parent": {
+      "challenge": "challenge.trade-policy-condition#home"
+    }
+  },
+  "challenge.trade-policy-condition#home": {
+    "props": {
+      "redirectPath": "/login"
+    }
+  },
+  //Slider Principal
+    "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": ["info-card#banner1", "info-card#banner2", "info-card#banner3", "info-card#banner4"]
+    },
+    "info-card#banner1":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-PRINCIPAL-1v1.png",
+        "headline":"",
+        "subhead": "Encuentra toda la variedad en nuestras pelotas Viniball",
+        "callToActionText": "Ver más productos",
+        "callToActionUrl": "/viniball",
+        "textPosition": "right",
+        "textAlignment": "left",
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    "info-card#banner2":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-PRINCIPAL-2v1.png",
+        "headline":"",
+        "subhead": "Nuevos Sets de limpieza Microfibra Antimicrobial",
+        "callToActionUrl": "/microfibra?_q=microfibra&map=ft",
+        "textPosition": "right",
+        "textAlignment": "left",
+        "callToActionText": "Ver más productos",
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    "info-card#banner3":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-PRINCIPAL-3v1.png",
+        "headline":"",
+        "subhead": "¡Las mejores Scooters de Licencias!",
+        "callToActionUrl": "/scooters?_q=scooters&map=ft",
+        "textPosition": "right",
+        "textAlignment": "left",
+        "callToActionText": "Ver más productos",
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    "info-card#banner4":{
+      "props":{
+        "id":"texting",
+        "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-PRINCIPAL-4v1.png",
+        "headline":"",
+        "subhead": "La marca # 1 de venta de teteros en USA",
+        "callToActionUrl": "/dr-brown",
+        "textPosition": "right",
+        "textAlignment": "left",
+        "callToActionText": "Ver más productos",
+        "callToActionMode": "link",
+        "blockClass":"Mio"
+      }
+    },
+    //Titulo1
+    "rich-text#title1": {
+      "props": {
+        "text": "# Nuestras Marcas # \n ### Tenenmos las marcas mas top, descúbrelas! ###",
+        "textAlignment": "CENTER",
+        "font": "t-heading-3",
+        "textPosition": "CENTER",
+        "blockClass": "textosPrinc"
+      }
+    },
+    //Slider Marcas
+    "slider-layout#bannermarcas": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 6,
+          "tablet": 4,
+          "phone": 3
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "Cmarca",
+        "showPaginationDots": "never"
+      },
+      "children": [
+        "info-card#marca1", "info-card#marca2","info-card#marca3", 
+        "info-card#marca4","info-card#marca5", "info-card#marca6",
+        "info-card#marca7", "info-card#marca8","info-card#marca9",
+        "info-card#marca10", "info-card#marca11","info-card#marca12",
+        "info-card#marca13", "info-card#marca14","info-card#marca15","info-card#marca16"
+      ] 
+      },
+      "info-card#marca1":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Viniball_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/viniball",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Viniball",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca2":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Essenza_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/essenza",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Essenza",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca3":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Zoom-1_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/zoom",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Zoom",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca4":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Bium-1_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/bium",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Bium",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca5":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Dr%20Browns_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/dreams",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Dr Browns",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca6":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Munchkin_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/munchkin",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Munchkin",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca7":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Frozen_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/frozen",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Frozen",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca8":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Barbie_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/barbie",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Barbie",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca9":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Princesas_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/princesas",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Princesas",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca10":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Spiderman_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/spiderman",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Spiderman",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca11":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Avengers_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/avengers",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Avengers",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca12":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Lol_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/lol",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "LOL",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca13":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Hot%20Wheels_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/hot wheels",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Hot Wheels",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca14":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Baby%20Shark_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/shark",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Baby Shark",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca15":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20BaoBao_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/baobao",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "BaoBao",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#marca16":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo%20Soye%20Kids_Mesa%20de%20trabajo%201.png",
+          "callToActionUrl": "/soyekids",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Soye Kids",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      //title2
+      "rich-text#title2": {
+        "props": {
+          "text": "# Nuevos Productos # \n ### Descúbre los productos que mueven el mercado ###",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textosPrinc"
+        }
+      },
+      //vitrinas productos
+      "shelf#demo0":
+        {
+          "blocks": ["product-summary.shelf#home"],
+          "props": {
+            "collection": 146,
+            "productList": {
+             "maxItems": 15,
+             "itemsPerPage": 5,
+             "minItemsPerPage": 2,
+             "scroll": "BY_PAGE",
+             "arrows": "true",
+             "blockClass": "textosSec",
+             "showPaginationDots": "never"
+            }
+          }
+      },
+      "shelf#demo1": {
+        "blocks": ["product-summary.shelf#home"],
+        "props": {
+          "collection": 146,
+          "productList": {
+           "maxItems": 10,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "textosSec",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      
+      "shelf#demo2": {
+        "blocks": ["product-summary.shelf#home"],
+        "props": {
+          "collection": 143,
+          "productList": {
+           "maxItems": 15,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "textosSec",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo3": {
+        "blocks": ["product-summary.shelf#home"],
+        "props": {
+          "collection": 144,
+          "productList": {
+           "maxItems": 15,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "textosSec",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      "shelf#demo4": {
+        "blocks": ["product-summary.shelf#home"],
+        "props": {
+          "collection": 145,
+          "productList": {
+           "maxItems": 15,
+           "itemsPerPage": 4,
+           "minItemsPerPage": 2,
+           "scroll": "BY_PAGE",
+           "arrows": "true",
+           "blockClass": "textosSec",
+           "showPaginationDots": "never"
+          }
+        }
+      },
+      //Tap producto
+      "tab-layout#home": {
+      "children": [
+        "tab-list#home",
+        "tab-content#home"
+      ],
+        "props": {
+          "blockClass": "home",
+          "defaultActiveTabId": "home2"
+        }
+      },
+      "tab-list#home":{
+        "children":[
+          "tab-list.item#home2",
+          "tab-list.item#home3",
+          "tab-list.item#home4"
+        ]
+      },
+      "tab-list.item#home2":{
+        "props":{
+          "tabId": "home2",
+          "label": "Deportes y Juguetería"
+        }
+      },
+      "tab-list.item#home3":{
+        "props":{
+          "tabId": "home3",
+          "label": "Hogar"
+        }
+      },
+      "tab-list.item#home4":{
+        "props":{
+          "tabId": "home4",
+          "label": "Infantil"
+        }
+      },
+      "tab-content#home":{
+        "children":[
+          "tab-content.item#home2",
+          "tab-content.item#home3",
+          "tab-content.item#home4"
+        ]
+      },
+      "tab-content.item#home2": {
+        "children": [
+          "info-card#tap2",
+          "shelf#demo2"
+        ],
+         "props": {
+          "tabId": "home2"
+        }
+      },
+      "tab-content.item#home3": {
+        "children": [
+          "info-card#tap3",
+          "shelf#demo3"
+        ],
+         "props": {
+          "tabId": "home3"
+        }
+      },
+      "tab-content.item#home4": {
+        "children": [
+          "info-card#tap4",
+          "shelf#demo4"
+        ],
+         "props": {
+          "tabId": "home4"
+        }
+      },
+      "info-card#tap2":{
+        "props":{
+          "id":"tap",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-TAPS-2.png",
+          "headline":"Colección Botellas:",
+          "subhead": "¡Para que te hidrates donde sea! Botellas para todas las ocasiones.",
+          "callToActionUrl": "/botellas",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionText": "Ver toda la colección",
+          "callToActionMode": "link",
+          "blockClass":"segundo"
+        }
+      },
+      "info-card#tap3":{
+        "props":{
+          "id":"tap",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-TAPS-3.png",
+          "headline":"Colección Organización:",
+          "subhead": "Por que tu casa es tu reflejo !Que siempre este ordenada!",
+          "callToActionUrl": "/hogar",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionText": "Ver toda la colección",
+          "callToActionMode": "link",
+          "blockClass":"segundo"
+        }
+      },
+      "info-card#tap4":{
+        "props":{
+          "id":"tap",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/BANNER-TAPS-4.png",
+          "headline":"Colección Juguetes de Bebe:",
+          "subhead": "!Diversión y aprendizaje! Todo en juegos didácticos y de entretención.",
+          "callToActionUrl": "/infantil",
+          "textPosition": "left",
+          "textAlignment": "left",
+          "callToActionText": "Ver toda la colección",
+          "callToActionMode": "link",
+          "blockClass":"segundo"
+        }
+      },
+      //title 3
+      "rich-text#title3": {
+        "props": {
+          "text": "# Marca Destacada #",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textosPrinc"
+        }
+      },
+      //banner 3
+      //Slider Principal
+    "slider-layout#text-marca": {
+      "props": {
+        "itemsPerPage": {
+          "desktop": 1,
+          "tablet": 1,
+          "phone": 1
+        },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "blockClass": "bannersec"
+      },
+      "children": [
+        "image#marcan1",
+        "image#marcan2", "image#marcan3", "image#marcan4", "image#marcan5"
+      , "image#marcan6"]
+      },
+      "image#marcan1":{
+        "props":{
+          "src":"https://pepegangastilotex.vtexassets.com/arquivos/BANNER-INFERIOR-MARCAS-1.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass":"Marca1"
+        }
+      },
+      "image#marcan2":{
+        "props":{
+          "src":"https://pepegangastilotex.vtexassets.com/arquivos/BANNER-INFERIOR-MARCAS-2.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass":"Marca2"
+        }
+      },
+      "image#marcan3":{
+        "props":{
+          "src":"https://pepegangastilotex.vtexassets.com/arquivos/BANNER-INFERIOR-MARCAS-3.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass":"Marca3"
+        }
+      },
+      "image#marcan4":{
+        "props":{
+          "src":"https://pepegangastilotex.vtexassets.com/arquivos/BANNER-INFERIOR-MARCAS-4.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass":"Marca4"
+        }
+      },
+      "image#marcan5":{
+        "props":{
+          "src":"https://pepegangastilotex.vtexassets.com/arquivos/BANNER-INFERIOR-MARCAS-5.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass":"Marca5"
+        }
+      },
+      "image#marcan6":{
+        "props":{
+          "src":"https://pepegangastilotex.vtexassets.com/arquivos/BANNER-INFERIOR-MARCAS-6.png",
+          "link":{
+            "url":"#"
+          },
+          "blockClass":"Marca6"
+        }
+      },
+      //title 4
+      "rich-text#title4":{
+        "props": {
+          "text": "# Categorias # \n ### Encuentra todo lo que necesitas para tu negocio ###",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textosPrinc"
+        }
+      },
+      // filas de las categorias
+      "flex-layout.row#home1":{
+        "children": [
+          "info-card#home1",
+          "info-card#home2",
+          "info-card#home3",
+          "info-card#home4",
+          "info-card#home5"
+        ],
+        "props":{
+          "blockClass": "categorys"
+        }
+      },
+      "flex-layout.row#home2":{
+        "children": [
+          "info-card#home6",
+          "info-card#home7",
+          "info-card#home8",
+          "info-card#home9",
+          "info-card#home10"
+        ],
+        "props":{
+          "blockClass": "categorys"
+        }
+      },
+      "flex-layout.row#home3":{
+        "children": [
+          "info-card#home11",
+          "info-card#home12",
+          "info-card#home13",
+          "info-card#home14",
+          "info-card#home15"
+        ],
+        "props":{
+          "blockClass": "categorys"
+        }
+      },
+      "flex-layout.row#home4":{
+        "children": [
+          "info-card#home16",
+          "info-card#home17",
+          "info-card#home18",
+          "info-card#home19",
+          "info-card#home20"
+        ],
+        "props":{
+          "blockClass": "categorys"
+        }
+      },
+      "flex-layout.row#home5":{
+        "children": [
+          "info-card#home21",
+          "info-card#home22",
+          "info-card#home23",
+          "info-card#home24",
+          "info-card#home25"
+        ],
+        "props":{
+          "blockClass": "categorys"
+        }
+      },
+      // tarjetas de las categorias
+      "info-card#home1":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/alimentacionlactancia.png",
+          "callToActionUrl": "/INFANTIL/ALIMENTACIoN-Y-LACTANCIA",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Alimentacion Lactancia",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home2":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/aseo.png",
+          "callToActionUrl": "/aseo?_q=aseo&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": "Aseo",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home3":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/bolsasreutilizables.png",
+          "callToActionUrl": "/bolsa?_q=bolsa&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Bolsas Reutilizables ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home4":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/coches.png",
+          "callToActionUrl": "/Bebes/Coches",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Coches ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home5":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/cuidadodelhogar.png",
+          "callToActionUrl": "/Hogar/Articulos-para-el-hogar",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Cuidado Del Hogar ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home6":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/cunas.png",
+          "callToActionUrl": "/Bebes/Cuarto-del-Bebe",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Cunas ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home7":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/dispensadores.png",
+          "callToActionUrl": "/dispensadores?_q=Dispensadores&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Dispensadores ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home8":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/futbol.png",
+          "callToActionUrl": "/futbol?_q=futbol&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Futbol ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home9":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/jugueteria.png",
+          "callToActionUrl": "/Jugueteria",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Jugueteria ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home10":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/liquidacion.png",
+          "callToActionUrl": "#",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Liquidacion ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home11":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/ofertasunicas.png",
+          "callToActionUrl": "#",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Ofertas Unicas ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home12":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/organizacioncocina.png",
+          "callToActionUrl": "/organizacion?_q=organizacion&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Organización Cocina ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home13":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/outdoor.png",
+          "callToActionUrl": "/DEPORTES-Y-JUGUETERIA/OUTDOOR",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Outdoor ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home14":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/patines.png",
+          "callToActionUrl": "/patines?_q=patines&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Patines ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home15":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/pelotas.png",
+          "callToActionUrl": "/balon?_q=balon&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Pelotas ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home16":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/proteccion.png",
+          "callToActionUrl": "/bebes/salud-y-seguridad?initialMap=c&initialQuery=bebes",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Proteccion ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home17":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/ropadecama.png",
+          "callToActionUrl": "/Juegos%20de%20Cama",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Ropa de Cama ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home18":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/ropadeninas.png",
+          "callToActionUrl": "/Ropa%20Niña",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Ropa de Niñas ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home19":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/ropadenino.png",
+          "callToActionUrl": "/Ropa%20Niño",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Ropa de Niño ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home20":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/saludycuidadobebe.png",
+          "callToActionUrl": "/INFANTIL/SALUD-Y-CUIDADO-DEL-BEBE",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Salud Y Cuidado Bebe ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home21":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/scooter.png",
+          "callToActionUrl": "/scooter?_q=scooter&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Scooter ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home22":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/seguridad-infantil.png",
+          "callToActionUrl": "/bebes/salud-y-seguridad?initialMap=c&initialQuery=bebes",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Seguridad Infantil ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home23":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/silladecarros.png",
+          "callToActionUrl": "/Bebes/Coches",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Silla De Carros ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home24":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/tapetesbaño.png",
+          "callToActionUrl": "/tapete?_q=tapete&map=ft",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Tapetes Baño ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      "info-card#home25":{
+        "props":{
+          "id":"texting",
+          "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/toallas.png",
+          "callToActionUrl": "/Hogar/complementos",
+          "textPosition": "CENTER",
+          "textAlignment": "CENTER",
+          "callToActionText": " Toallas ",
+          "callToActionMode": "link",
+          "blockClass":"marcas"
+        }
+      },
+      //medios de pago
+      "flex-layout.row#medios":{
+        "children": [
+          "flex-layout.col#medio1",
+          "flex-layout.col#medio2",
+          "flex-layout.col#medio3"
+        ],
+        "props":{
+          "blockClass": "medios",
+          "colSizing": "auto"
+        }
+      },
+      "flex-layout.col#medio1":{
+        "children":[
+          "rich-text#tec",
+          "image#tec"
+        ],
+        "props":{
+          "blockClass": "textosIcno1"
+        }
+      },
+      "flex-layout.col#medio2":{
+        "children":[
+          "rich-text#certificado",
+          "image#dig",
+          "image#dss"
+        ],
+        "props":{
+          "blockClass": "textosIcno2"
+        }
+      },
+      "flex-layout.col#medio3":{
+        "children":[
+          "rich-text#Medios",
+          "slider-layout#medios"
+        ],
+        "props":{
+          "blockClass": "textosIcno3"
+        }
+      },
+      "slider-layout#medios": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "mediosP",
+          "showPaginationDots": "never",
+          "autoplay ": {
+            "timeout": 5000
+          }
+        },
+        "children": ["image#image1", "image#image2",
+          "image#image3", "image#image4",
+          "image#image5", "image#image6",
+          "image#image7", "image#image8"
+        ]
+        },
+        "rich-text#tec":{
+          "props": {
+            "text": "Tecnología:",
+            "textAlignment": "CENTER",
+            "font": "t-heading-3",
+            "textPosition": "CENTER",
+            "blockClass": "textoscentro"
+          }
+        },
+        "image#tec":{
+          "props":{
+            "src":"https://pepegangastilotex.vteximg.com.br/arquivos/VTEX_Logo.png",
+            "link":{
+              "url":"#"
+            },
+            "maxHeight": 56
+          }
+      },
+      "rich-text#certificado":{
+        "props": {
+          "text": "Certificado por:",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textoscentro"
+        }
+      },
+      "image#dig":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/1524057722_DigiCert-Logo.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#dss":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/PCI-DSS-conforme-hébergement-e1485899121820.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "rich-text#Medios":{
+        "props": {
+          "text": "Métodos de pago:",
+          "textAlignment": "CENTER",
+          "font": "t-heading-3",
+          "textPosition": "CENTER",
+          "blockClass": "textoscentro"
+        }
+      },
+      "image#image1":{
+        "props":{
+          "src":"assets/mercadopago.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image2":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/1200px-American_Express_logo_(2018).svg.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image3":{
+        "props":{
+          "src":"assets/visa-logo.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image4":{
+        "props":{
+          "src":"assets/mastercard-logo-7.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image5":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/Diners-Club-International-logo.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image6":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/egi-mp-efecty.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image7":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/Logo-baloto.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      },
+      "image#image8":{
+        "props":{
+          "src":"https://pepegangastilotex.vteximg.com.br/arquivos/logo-pse.png",
+          "link":{
+            "url":"#"
+          },
+          "maxHeight": 30
+        }
+      }
+
+
+}

@@ -1,0 +1,24 @@
+.container{
+  margin: 0 100px 0 100px;
+}
+.title{
+  display: none;
+}
+.shelfContentContainer{
+  padding: 15px 0 0 0;
+}
+.sliderContainer {
+  max-width: 100%;
+}
+.arrowLeft {
+  left: -10px;
+}
+.arrowRight {
+  right: -10px;
+}
+.relatedProducts .shelfContentContainer {
+  margin:0 100px 0 100px;
+}
+.relatedProducts{
+  margin-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+.container{
+    margin: 0 100px 0 100px;
+}
+.link, .term  {
+    color: #000;
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,166 @@
+{
+  "store.orderplaced": {
+    "blocks": ["order-placed"]
+  },
+
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+
+  "store.login": {
+    "blocks": ["info-card#bannerC1", "login-content#default"]
+  },
+
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "info-card#bannerC1":{
+    "props":{
+      "id":"texting",
+      "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/imagenprehome.jpg",
+      "headline":"Bienvenido!",
+      "subhead": "Ahora eres parte importante de este equipo y juntos haremos grandes cosas, exploraremos el mundo para poner a tu disposición grandes marcas, productos innovadores e increíbles oportunidades de negocio. !Estamos listos para crecer contigo!",
+      "textPosition": "right",
+      "textAlignment": "left",
+      "blockClass":"inicio"
+    }
+  },
+  "list-context.product-list": {
+    "blocks": ["product-summary.shelf"]
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-quantity#vitrina",	
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-identifier.summary",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "product-summary-quantity#vitrina",	
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never"
+    }
+  },
+
+  "product-summary.shelf#home": {
+    "children": [
+      "product-summary-image",
+      "product-summary-quantity#vitrina",	
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-identifier.summary",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "flex-layout.row#vitrina1"
+    ],
+    "props":{
+      "showPaginationDots": "never"
+    }
+  },
+
+  "product-summary.shelf#category":{
+    "children": [
+      "product-summary-image",
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-identifier.summary",
+      "product-summary-sku-selector",
+      "flex-layout.row#pricing",
+      "product-summary-quantity#C",	
+      "flex-layout.row#vitrina"
+    ],
+    "props":{
+      "showPaginationDots": "never"
+    }
+
+  },
+  
+
+  //Cantidad vitrina 
+
+  "product-summary-quantity#vitrina":{
+    "props":{
+      "blockClass":"cantidadC"
+    }
+  },
+  "product-summary-quantity#C":{
+    "props":{
+      "blockClass":"cantidadD"
+    }
+  },
+
+
+  "product-summary-sku-selector": {
+   "props":{
+     "showVariationsLabels": ["false"]
+      }
+  },
+  "flex-layout.row#vitrina1":{
+    "children": [
+      "flex-layout.col#buybutton"
+    ],
+    "props":{
+      "blockClass": "cantidadC"
+    }
+  },
+  "flex-layout.row#vitrina":{
+    "children": [
+      "flex-layout.col#cantidad",
+      "flex-layout.col#buybutton"
+    ],
+    "props":{
+      "blockClass": "cantidadC"
+    }
+  },
+ "flex-layout.col#cantidad":{
+   "props":{
+     "width": "20%",
+     "verticalAlign": "middle",
+     "blockClass": "cantidadV",
+     "paddingLeft": "0px",
+     "paddingRight": "5px"
+   }
+ },
+  "flex-layout.col#buybutton":{
+    "children": [
+      "add-to-cart-button#vitrine"
+    ],
+    "props":{
+      "width": "100%",
+      "verticalAlign": "middle",
+      "blockClass": "buyc",
+      "paddingLeft": "5px",
+      "paddingRight": "0px"
+    }
+  },
+  "product-quantity#vitrine":{
+    "props":{
+      "size":"small"
+    }
+  },
+  "add-to-cart-button#vitrine":{
+      "props":{
+        "text": "Agregar al carrito"
+      }
+  },
+  "flex-layout.row#pricing":{
+    "children": [
+      "product-summary-price#first"
+    ]
+  },
+  "product-summary-price#first":{
+    "props":{
+      "blockClass": "newprice"
+    }
+  }
+}

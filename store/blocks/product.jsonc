@@ -1,0 +1,187 @@
+{
+"store.product": {
+  "children": [
+    "flex-layout.row#product-breadcrumb",
+    "flex-layout.row#product-main",
+    "tab-layout#product",
+    "rich-text#product1",
+    "shelf.relatedProducts"
+  ],
+  "parent": {
+    "challenge": "challenge.trade-policy-condition"
+  }
+},
+
+"flex-layout.row#product-breadcrumb": {
+  "props": {
+    "marginTop": 4
+  },
+  "children": ["breadcrumb"]
+},
+"flex-layout.row#product-main": {
+  "props": {
+    "colGap": 7,
+    "rowGap": 7,
+    "marginTop": 4,
+    "marginBottom": 7,
+    "paddingTop": 7,
+    "paddingBottom": 7,
+    "blockClass":"product"
+  },
+  "children": ["flex-layout.col#product-image", "flex-layout.col#right-col"]
+},
+"flex-layout.col#product-image": {
+  "props": {
+    "width": "60%",
+    "rowGap": 0
+  },
+  "children": ["product-images"]
+},
+"product-images": {
+  "props": {
+    "displayThumbnailsArrows": true
+  }
+},
+"flex-layout.col#right-col": {
+  "props": {
+    "preventVerticalStretch": true,
+    "rowGap": 0
+  },
+  "children": [
+    "product-name",
+    "product-identifier.product",
+    "sku-selector",
+    "product-price#product-details",
+    "product-description",
+    "product-rating-summary",
+    "product-separator",
+    "product-quantity",
+    "flex-layout.row#buy-button",
+    "availability-subscriber",
+    "share#default"
+  ]
+},
+"product-quantity":{
+  "props": {
+    "warningQuantityThreshold": 6,
+    "showUnit": true
+  }
+},
+"product-price#product-details": {
+  "props": {
+    "showInstallments": true,
+    "showSavings": true
+  }
+},
+"flex-layout.row#buy-button": {
+  "props": {
+    "marginTop": 4,
+    "marginBottom": 7,
+    "blockClass":"productbuy"
+  },
+  "children": ["add-to-cart-button#checkout", "add-to-cart-button"]
+},
+"add-to-cart-button#checkout":{
+  "props":{
+    "isOneClickBuy": "true",
+    "blockClass":"productcheckout"
+  }
+},
+"share#default": {
+  "props": {
+    "social": {
+      "Facebook": true,
+      "WhatsApp": true,
+      "Twitter": false,
+      "Pinterest": true
+    }
+  }
+},
+  //Titulo1
+  "rich-text#product1": {
+    "props": {
+      "text": "# NUEVOS PRODUCTOS # \n ### Descúbre los productos que mueven el mercado ###",
+      "textAlignment": "CENTER",
+      "font": "t-heading-3",
+      "textPosition": "CENTER",
+      "blockClass": "textosPrinc"
+    }
+  },
+  "shelf.relatedProducts": {
+    "props": {
+        "recommendation": "view",
+        "productList": {
+            "titleText": "Nuestras Marcas",
+            "itemsPerPage": 4
+        }
+    },
+    "blocks": ["product-summary.shelf"]
+  },
+  //taps descriopcion
+  "tab-layout#product": {
+    "children": [
+      "tab-list#product",
+      "tab-content#product"
+    ],
+      "props": {
+        "blockClass": "product",
+        "defaultActiveTabId": "product1"
+      }
+    },
+    "tab-list#product":{
+      "children":[
+        "tab-list.item#product1"
+      ]
+    },
+    "tab-list.item#product1":{
+      "props":{
+        "tabId": "product1",
+        "label": "Detalles y Caracteristicas"
+      }
+    },
+    "tab-content#product":{
+      "children":[
+        "tab-content.item#product1"
+      ]
+    },
+    "tab-content.item#product1": {
+      "children": [
+        "product-specification-group#tap1"
+      ],
+       "props": {
+        "tabId": "product1"
+      }
+    },
+    "product-specification-group#tap1": {
+      "children": ["product-specification-text#group", "product-specification"],
+      "props":{
+        "blockClass": "producttap1"
+      }
+    },
+    "product-specification": {
+      "children": [
+        "product-specification-text#specification",
+        "product-specification-values"
+      ]
+    },
+    "product-specification-values": {
+      "children": ["product-specification-text#value"]
+    },
+    "product-specification-text#group": {
+      "props": {
+        "message": "{groupName}",
+        "blockClass": "{groupName}"
+      }
+    },
+    "product-specification-text#specification": {
+      "props": {
+        "message": "{specificationName}"
+      }
+    },
+    "product-specification-text#value": {
+      "props": {
+        "message": "{specificationValue}"
+      }
+    }
+
+}

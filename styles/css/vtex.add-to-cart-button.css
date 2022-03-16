@@ -1,0 +1,48 @@
+.buttonDataContainer{
+  background: #00ff99;
+  height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 21px 0 17px 0;
+    width: 100%;
+    border-radius: 6px;
+}
+.buttonDataContainer:hover{
+  background: black;
+}
+.buyButtonContainer{
+  background: #00ff99
+}
+.vtex-button__label{
+  padding: 0 !important;
+}
+.buttonText{
+  font-size: 12px;
+  text-transform: initial;
+  min-width: 100%;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.buttonText{
+  color: black;
+  font-weight: 500;
+  width: 100%;
+  margin: -6px 0 0 0;
+}
+.buttonText:hover{
+  color: white;
+  background: black;
+}
+.buttonText--productcheckout::before{
+  font-size: 13px;
+  content: "Comprar";
+
+}
+.buttonText--productcheckout{
+  font-size: 0;
+}

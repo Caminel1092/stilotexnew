@@ -1,0 +1,91 @@
+.quantitySelectorTitle{
+    font-size: 13px;
+}
+.quantitySelectorTitle{
+    margin: 0 17px 0 0;
+    padding: 0;
+    font-weight: 700;
+    color: black;
+}
+.quantitySelectorContainer{
+    display: flex;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+    flex-direction: initial;
+    align-items: center;
+}
+.quantitySelectorStepper{
+    border-radius: 25px;
+    border: 1px solid black;
+    padding: 0 7px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container){
+    height: 20px;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container) {
+    display: flex;
+    align-items: center;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container) {
+    display: flex;
+    align-items: center;
+}
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input){
+    display: flex;
+    min-width: 162%;
+    font-size: 14px;
+}
+.quantitySelectorStepper--cantidadC :global(.vtex-numeric-stepper__input){
+    display: flex;
+    min-width: 115%;
+    font-size: 14px;
+}
+.quantitySelectorStepper--cantidadC {
+    width: 100% !important;
+    padding: 0;
+}
+
+.quantitySelectorStepper{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 26%;
+}
+.availableQuantityContainer {
+    margin: 0 19px;
+}
+.summaryContainer {
+    width: 30%;
+    position: absolute;
+    bottom: 3%;
+  }
+  
+  .summaryContainer .quantitySelectorContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 0 3px 0;
+  }
+  
+
+  .summaryContainer .quantitySelectorTitle {
+    margin: 0;
+    font-weight: 500;
+  }
+  /*Category*/
+  .quantitySelectorStepper--cantidadD :global(.vtex-numeric-stepper__input) {
+    display: flex;
+    min-width: 275% !important;
+    font-size: 14px;
+}
+.quantitySelectorStepper--cantidadD :global(.vtex-numeric-stepper-container) {
+    width: 30%;
+}
+
+.summaryContainer--cantidadD {
+    width: 33%;
+    bottom: 4%;
+}
+.quantitySelectorStepper--cantidadD{
+    width: 100%;
+}

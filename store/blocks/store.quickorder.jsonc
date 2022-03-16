@@ -1,0 +1,106 @@
+{
+  "store.quickorder": {
+    "blocks": [
+      "flex-layout.row#title",
+      "flex-layout.row#textarea",
+      "flex-layout.row#upload",
+      "flex-layout.row#autocomplete",
+      "flex-layout.row#categories"
+    ],
+    "props":{
+      "blockClass": "quickorderb"
+    }
+  },
+  "flex-layout.row#title": {
+    "children": ["flex-layout.col#title"],
+    "props":{
+      "blockClass": "quickc"
+    }
+  },
+  "flex-layout.col#title": {
+    "children": ["rich-text#title"],
+    "props": {
+      "blockClass": "titleQuickorder",
+      "preventVerticalStretch": true
+    }
+  },
+  "rich-text#title": {
+    "props": {
+      "text": "## Compra de manera masiva",
+      "blockClass": "titleCd"
+    }
+  },
+
+  "flex-layout.row#textarea": {
+    "children": ["flex-layout.col#textarea"],
+    "props":{
+      "blockClass": "quickc"
+    }
+  },
+  "flex-layout.col#textarea": {
+    "children": ["quickorder-textarea"]
+  },
+  "quickorder-textarea": {
+    "props": {
+      "componentOnly": false,
+      "text": "Copia y pega el id sku de tu producto",
+      "description": "[Codigo Sku's],[Cantidad]",
+      "blockClass": "textoquick"
+    }
+  },
+
+  "flex-layout.row#upload": {
+    "children": ["flex-layout.col#upload"],
+    "props":{
+      "blockClass": "quickc"
+    }
+  },
+  "flex-layout.col#upload": {
+    "children": ["quickorder-upload"]
+  },
+  "quickorder-upload": {
+    "props": {
+      "componentOnly": false,
+      "text": "Cargar ",
+      "description": "Carga la información desde una hoja de calculo con 2 columnas(SKU, Quantity) para generar tu orden masiva",
+      "downloadText": "Haz click aqui para descargar el modelo",
+      "blockClass": "textoquick"
+    }
+  },
+
+  "flex-layout.row#autocomplete": {
+    "children": ["flex-layout.col#autocomplete"],
+    "props":{
+      "blockClass": "quickc"
+    }
+  },
+  "flex-layout.col#autocomplete": {
+    "children": ["quickorder-autocomplete"]
+  },
+  "quickorder-autocomplete": {
+    "props": {
+      "componentOnly": false,
+      "text": "Uno a Uno",
+      "description": "Escribe el nombre del producto selecciona su cantidad y agregalo",
+      "blockClass": "textoquick"
+    }
+  },
+
+  "flex-layout.row#categories": {
+    "children": ["flex-layout.col#categories"],
+    "props":{
+      "blockClass": "quickc"
+    }
+  },
+  "flex-layout.col#categories": {
+    "children": ["quickorder-categories"]
+  },
+  "quickorder-categories": {
+    "props": {
+      "componentOnly": false,
+      "text": "Por Categorías",
+      "description": "Agrega producto directamente desde las categorías",
+      "blockClass": "textoquick"
+    }
+  }
+}

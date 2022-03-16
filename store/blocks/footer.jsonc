@@ -1,0 +1,711 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": { 
+    "children": [
+      "flex-layout.row#looFoo",
+      "flex-layout.row#footerD",
+      "flex-layout.row#extrafoot"
+    ]
+  },
+  "footer-layout.mobile": { 
+    "children": [
+      "flex-layout.row#looFoo",
+      "flex-layout.row#footerD"
+    ]
+  },
+  //Inicio decalarado
+  "flex-layout.row#footerD":{
+    "children":[
+      "flex-layout.col#footer1",
+      "flex-layout.col#footer4",
+      "flex-layout.col#footer5",
+      "flex-layout.col#footer6",
+      "flex-layout.col#footer7",
+      "flex-layout.col#footer8",
+      "flex-layout.col#footer2",
+      "flex-layout.col#footer3"
+    ],
+    "props":{
+      "blockClass":"footercon"
+    }
+  },
+  "flex-layout.row#looFoo":{
+    "children":[
+      "image#logoFoo"
+    ],
+    "props":{
+      "blockClass":"footerimg"
+    }
+  },
+  //Logo
+  "image#logoFoo":{
+    "props":{
+      "src":"assets/logostilotex.png",
+      "link":{
+        "url":"#"
+      },
+      "maxWidth": "30%"
+    }
+  },
+  //Columna 1
+  "flex-layout.col#footer1":{
+    "children":[
+      "rich-text#footitle",
+      "rich-text#foo2",
+      "rich-text#foo3",
+      "rich-text#foo4",
+      "rich-text#foo41",
+      "rich-text#foo5"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle":{
+    "props": {
+      "text": "Contacto",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo2":{
+    "props": {
+      "text": "[info@stilotex.com](mailto:info@stilotex.com)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo3":{
+    "props": {
+      "text": "(571) 492 6700",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo4":{
+    "props": {
+      "text": "Cra 106 # 15 - 25",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo41":{
+    "props": {
+      "text": "Manzana 5 Int. 13-14",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo5":{
+    "props": {
+      "text": "Bogotá, Colombia",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 2
+  "flex-layout.col#footer2":{
+    "children":[
+      "rich-text#footitle1",
+      "rich-text#foo6",
+      "rich-text#foo7",
+      "rich-text#foo8",
+      "rich-text#foo9"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle1":{
+    "props": {
+      "text": "HUB",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo6":{
+    "props": {
+      "text": "[Quienes Somos](https://stilotex.com/nosotros/#historia)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo7":{
+    "props": {
+      "text": "[Identidad corporativa](/quienes-somos)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo8":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo9":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 3
+  "flex-layout.col#footer3":{
+    "children":[
+      "rich-text#footitle3",
+      "rich-text#foo10",
+      "rich-text#foo11",
+      "rich-text#foo12"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle3":{
+    "props": {
+      "text": "Por ser parte de nosotros",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo10":{
+    "props": {
+      "text": "[Beneficios](/Beneficios)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo11":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo12":{
+    "props": {
+      "text": "",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 4
+  "flex-layout.col#footer4":{
+    "children":[
+      "rich-text#footitle4",
+      "rich-text#foo13",
+      "rich-text#foo14",
+      "rich-text#foo15",
+      "rich-text#foo150"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle4":{
+    "props": {
+      "text": "Terminos de uso",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo13":{
+    "props": {
+      "text": "[Aviso de Privacidad](/aviso-privacidad)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo14":{
+    "props": {
+      "text": "[Términos y Condiciones](/terminos-condiciones)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo15":{
+    "props": {
+      "text": "[Garantías y Devoluciones](/Garantias-y-Devoluciones)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo150":{
+    "props": {
+      "text": "[FAQS](/faqs)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 5
+  "flex-layout.col#footer5":{
+    "children":[
+      "rich-text#footitle5",
+      "rich-text#foo16",
+      "rich-text#foo17",
+      "rich-text#foo18",
+      "rich-text#foo161",
+      "rich-text#foo171",
+      "rich-text#foo181",
+      "rich-text#foo162",
+      "rich-text#foo172"
+
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle5":{
+    "props": {
+      "text": "Hogar",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo16":{
+    "props": {
+      "text": "[Soyekids](/Soyekids)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo17":{
+    "props": {
+      "text": "[Bium](/Bium)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo18":{
+    "props": {
+      "text": "[Baobao](/Baobao)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo161":{
+    "props": {
+      "text": "[Disney Baby](/Disney%20Baby)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo171":{
+    "props": {
+      "text": "[Hot Wheels](/Hot%20Wheels)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo181":{
+    "props": {
+      "text": "[Fiscer Price](/Fiscer%20Price)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo162":{
+    "props": {
+      "text": "[Kidorable](/Kidorable)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo172":{
+    "props": {
+      "text": "[Zutano](/Zutano)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 6
+  "flex-layout.col#footer6":{
+    "children":[
+      "rich-text#footitle6",
+      "rich-text#foo19",
+      "rich-text#foo20",
+      "rich-text#foo21",
+      "rich-text#foo22",
+      "rich-text#foo23",
+      "rich-text#foo24",
+      "rich-text#foo25",
+      "rich-text#foo26"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle6":{
+    "props": {
+      "text": "Hobbies",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo19":{
+    "props": {
+      "text": "[Soyekids](/Soyekids)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo20":{
+    "props": {
+      "text": "[Bium](/Bium)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo21":{
+    "props": {
+      "text": "[Baobao](/Baobao)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo22":{
+    "props": {
+      "text": "[Disney Baby](/Disney%20Baby)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo23":{
+    "props": {
+      "text": "[Hot Wheels](/Hot%20Wheels)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo24":{
+    "props": {
+      "text": "[Fiscer Price](/Fiscer%20Price)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo25":{
+    "props": {
+      "text": "[Kidorable](/Kidorable)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo26":{
+    "props": {
+      "text": "[Zutano](/Zutano)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 7
+  "flex-layout.col#footer7":{
+    "children":[
+      "rich-text#footitle7",
+      "rich-text#foo27",
+      "rich-text#foo28",
+      "rich-text#foo29",
+      "rich-text#foo30",
+      "rich-text#foo31",
+      "rich-text#foo32",
+      "rich-text#foo33",
+      "rich-text#foo34"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle7":{
+    "props": {
+      "text": "Bebés",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo27":{
+    "props": {
+      "text": "[Soyekids](/Soyekids)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo28":{
+    "props": {
+      "text": "[Bium](/Bium)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo29":{
+    "props": {
+      "text": "[Baobao](/Baobao)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo30":{
+    "props": {
+      "text": "[Disney Baby](/Disney%20Baby)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo31":{
+    "props": {
+      "text": "[Hot Wheels](/Hot%20Wheels)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo32":{
+    "props": {
+      "text": "[Fiscer Price](/Fiscer%20Price)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo33":{
+    "props": {
+      "text": "[Kidorable](/Kidorable)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo34":{
+    "props": {
+      "text": "[Zutano](/Zutano)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //Columna 8
+  "flex-layout.col#footer8":{
+    "children":[
+      "rich-text#footitle8",
+      "rich-text#foo35",
+      "rich-text#foo36",
+      "rich-text#foo37",
+      "rich-text#foo38",
+      "rich-text#foo39"
+    ],
+    "props":{
+      "blockClass": "footerC"
+    }
+  },
+  "rich-text#footitle8":{
+    "props": {
+      "text": "Moda Infantil",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "titleF"
+    }
+  },
+  "rich-text#foo35":{
+    "props": {
+      "text": "[Disney Baby](/Disney%20Baby)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo36":{
+    "props": {
+      "text": "[Hot Wheels](/Hot%20Wheels)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo37":{
+    "props": {
+      "text": "[Fischer Price](/Fischer%20Price)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo38":{
+    "props": {
+      "text": "[Kidorable](/Kidorable)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  "rich-text#foo39":{
+    "props": {
+      "text": "[Zutano](/Zutano)",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textFoo"
+    }
+  },
+  //last part footer
+  "flex-layout.row#extrafoot":{
+    "children":[
+      "flex-layout.col#last1",
+      "flex-layout.col#last2",
+      "flex-layout.col#last3"
+    ],
+    "props":{
+      "blockClass": "lastF"
+    }   
+  },
+  "flex-layout.col#last1":{
+    "children":[
+      "rich-text#foo1"
+    ],
+    "props":{
+      "blockClass": "firstCon"
+    }
+  },
+  "flex-layout.col#last2":{
+    "children":[
+      "info-card#foo2"
+    ],
+    "props":{
+      "blockClass": "secondCon"
+    }
+  },
+  "flex-layout.col#last3":{
+    "children":[
+      "info-card#foo3"
+    ],
+    "props":{
+      "blockClass": "thirdCon"
+    }
+  },
+  "rich-text#foo1":{
+    "props": {
+      "text": "2021 © stilotex. All rights reserved",
+      "textAlignment": "left",
+      "font": "t-heading-3",
+      "textPosition": "left",
+      "blockClass": "textfool"
+    }
+  },
+  "info-card#foo2":{
+    "props":{
+      "id":"texto",
+      "headline":"This site was design with love by",
+      "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/montenegrofotter.png",
+      "textPosition": "left",
+      "textAlignment": "left",
+      "blockClass":"textfool2"
+    }
+  },
+  "info-card#foo3":{
+    "props":{
+      "id":"texto",
+      "headline":"Desarrolado por",
+      "imageUrl":"https://pepegangastilotex.vteximg.com.br/arquivos/logoepartner.png",
+      "textPosition": "left",
+      "textAlignment": "right",
+      "blockClass":"textfool3"
+    }
+  }
+}

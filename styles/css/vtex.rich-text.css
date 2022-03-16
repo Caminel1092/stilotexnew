@@ -1,0 +1,96 @@
+.link--help-message {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+.paragraph{
+  padding: 0;
+  margin: 0;
+}
+.heading--textosPrinc{
+  font-size: 32px;
+  margin: 0px 0 10px 0;
+}
+.headingLevel3--textosPrinc{
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.wrapper--textosPrinc {
+  margin: 30px 0 0 0;
+}
+.paragraph--textoscentro{
+  font-size: 12px;
+}
+.paragraph--textoscentro{
+  margin: 0 16px 0 0;
+  min-width: 130px;
+}
+.paragraph--titleF{
+  color:white;
+  font-weight: 700;
+  font-size: 14px;
+}
+.link--textFoo, .paragraph--textFoo{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 20px;
+  text-decoration: none;
+}
+.paragraph--textfool{
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #00ff9d;
+}
+.wrapper--about {margin: 0 100px 100px 100px;}
+
+.wrapper--textoquien {
+    justify-content: center !important;
+    display: block;
+}
+
+.container--textoquien {
+    justify-content: center;
+}
+
+.headingLevel2 {
+    font-size: 21px;
+}
+.container--textostilo {
+  margin: 0 100px 0 100px;
+}
+.listItem--about, .paragraph--about{
+  line-height: 25px;
+  font-size: 14px;
+}
+.link--textostilo{
+  color: black;
+  font-size: 12px;
+}
+.link--linkstexto{
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.wrapper--titleCd {
+    margin: 0 auto;
+}
+.heading--titleCd {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: black;
+  padding: 23px 0;
+}
+.container--helpmesagebulk {
+  padding: 0 40px;
+}
+.link--helpmesagebulk {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+}

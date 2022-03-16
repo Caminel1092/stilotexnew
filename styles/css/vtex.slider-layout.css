@@ -1,0 +1,29 @@
+.imageElement{
+    max-width: inherit;
+}
+.sliderLayoutContainer--carousel1{
+  margin: 0 0 50px 0;
+}
+.vtex-button__label{
+  display: none !important;
+}
+.sliderLayoutContainer--Cmarca{
+  margin: 0 0 30px 0;
+}
+.slide--bannersecun{
+  margin: 35px 0 20px 0;
+}
+.sliderLeftArrow--mediosP .caretIcon--mediosP{
+  margin: 0 0 0 -12px;
+  width: 15px;
+}
+.sliderRightArrow--mediosP .caretIcon--mediosP{
+  margin: 0 -25px 0 0px;
+  width: 15px;
+}
+.slide--mediosP {
+  max-width: 500px;
+}
+.slide--bannersec--firstVisible{
+  padding: 35px 0 20px 0;
+}

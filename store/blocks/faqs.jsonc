@@ -1,0 +1,40 @@
+{
+    "store.custom#faqs": {
+      "blocks": [
+        "flex-layout.row#faqs"
+      ]
+    },
+  
+    "flex-layout.row#faqs": {
+      "children": [
+        "flex-layout.col#text-faqs"
+      ]
+    },
+  
+    "flex-layout.col#text-faqs": {
+      "children": [
+        "rich-text#title-faqs",
+        "rich-text#faqs"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#title-faqs": {
+      "props": {
+        "text":
+        "# FAQ’S",
+        "blockClass": "textoquien"
+      }
+    },
+  
+    "rich-text#faqs": {
+      "props": {
+        "text": "## Preguntas Frecuentes ##  \n \n ¿Cómo podemos ayudarte? \n PRODUCTOS \n ¿QUÉ PRODUCTOS PUEDO ENCONTRAR EN LA PAGINA WEB? \n Somos una empresa comercializadora de productos por lo mismo podrás encontrar todo lo que se incluya en las categorías: Moda infantil (Ropa Niño y Bebe), Artículos para bebe (Mobiliario y artículos para el cuidado del bebe), Hobbies (Artículos de entretenimiento y deportes para todas las edades), Hogar (todo lo necesario para el uso y equipamiento de tu cocina). \n ¿DE DONDE VIENEN LOS PRODUCTOS? \n Depende del producto, nuestro equipo comercial está en constante búsqueda a nivel mundial para traer los mejores productos de excelentes marcas, las cuales garantizan el cumplimiento de las regulaciones de etiquetado, calidad y venta que obliga la ley Colombiana y del país origen. \n PAGO, ENVIO Y DEVOLUCIONES \n ¿PUEDO USAR MULTIPLES METODOS DE PAGO? \n Si, puedes utilizar diferentes métodos de pago: Tarjetas de crédito, Tarjeta débito, Baloto, Efecty, PSE, MercadoPago, Transferencia Bancaria o Crédito directo Stilotex. \n ¿POR QUÉ HA SIDO RECHAZADO MI PEDIDO? \n Por favor valida que todos los datos hayan sido diligenciados correctamente en la página de trámite de la compra. Si el pago no se ha realizado correctamente, pero todos los datos son correctos, es posible que tu entidad financiera haya negado el pago o tengas créditos vencidos con Stilotex. \n Si es por rechazo de medio de pago, ponte en contacto con tu entidad financiera o prueba con otro método de Pago. \n En el caso de crédito Stilotex vencido, cancela a través de MercadoPago, para hacer el desbloqueo inmediato de la plataforma o a través de otro método de pago y espera 48 horas para ver reflejada la transacción. \n ¿CÓMO PUEDO CONOCER MI CUPO DISPONIBLE? \n El cupo asignado va sujeto a estudio previo a la vinculación y definiciones comerciales, para conocer tu cupo asignado puedes hacerlo en la opción ¨Mi cuenta¨ / ¨Mi crédito¨. Aquí podras visualizar tu cupo asignado, tu saldo por pagar y tu Disponible a la fecha. \n Adicionalmente recibirás un estado de cuenta Mensual a tu correo electrónico con el cual podrás hacer un mayor control a tu estado financiero de la cuenta con Stilotex \n ¿SI TENGO SALDOS VENCIDOS PUEDO CONTINUAR MI COMPRA? \n No, la plataforma web no dejara finalizar tu compra si se evidencia que tienes saldo vencido, por lo mismo tendras la opción de consultar tu vencimientos en la opción ¨Mi cuenta¨ / ¨Mi crédito¨ y cancelar de inmediato con Mercado Pago para continuar con la compra, si cancelas con otro medio de pago deberas esperar 48 horas para que se vea reflejada la transacción e iniciar nuevamente el proceso de compra \n ¿CUÁLES SON LOS TIEMPOS DE ENVIO? \n Tiempos de entrega y envío \n a.  Los pedidos se envían solo en días hábiles. Los días hábiles son de lunes a sábado, excluyendo los festivos nacionales de Colombia \n b.  Los Productos serán entregados en la dirección confirmada por el comprador a más tardar dentro de los seis (5) días hábiles contados a partir del día hábil siguiente posterior a la confirmación de la compra. \n c. No se realizarán entregas en apartados de correos.\n d. No se reembolsarán los costes de envío urgente en el caso de devolución de artículos, salvo aquellos que se realicen en virtud de temas de garantía. \n e.  Los envíos sólo cubren el territorio nacional de Colombia, con excepción de San Andres Islas. \n f. El comprador podrá hacer seguimiento en tiempo real del estado de su pedido a través del Tracking de la orden. \n Tiempos de Transito \n Ciudades principales: de 2 a 3 días hábiles. \n Reexpediciones, de 7 a 8 días hábiles. \n ¿QUÉ HAGO SI QUIERO DEVOLVER MI PRODUCTO?} \n Proceso de Devoluciones \n Las causales contempladas por Stilotex S.A.S para la aceptación de una devolución son: FALTANTES, SOBRANTES Y ERRORES DE DESPACHO. \n Para realizar un cambio o una devolución el comprador tiene un tiempo máximo de 7 días calendario después de recibido el pedido para notificar la devolución de lo contrario no será aceptada, para hacerla efectiva debe: \n 1.  Enviar un mail al contacto comercial al correo devolucionesb2b@stilotex.com, o enviar notificación vía WhatsApp a través del sitio web indicando: \n a. Datos personales \n b.  Número de la factura y Pedido \n c. Referencia y nombre del producto(s) \n d. Descripción del motivo de la devolución \n 2. Enviar soportes para validación de la inconsistencia (Documentos, Producto, registro fotográfico, etc) \n 3.  Realizar seguimiento continuo al cierre de proceso de devolución para garantizar la liberación de cupo. \n Importante: \n a.  En caso de que la mercancía sea de un plan promocional no se aceptaran devoluciones\n b.  El valor total de la devolución se abonara al saldo a favor del cliente para la siguiente compra o abono a su crédito \n ¿QUIÉN SE ENCARGA DE MI PEDIDO UNA VEZ ES EXITOSA MI COMPRA? \n El pedido una vez es despachado, pasa a ser responsabilidad compartida con la Transportadora contratada para las entregas (TCC), en casos puntuales los envíos se harán con la transportadora propia de la compañía \n \n SERVICIO AL CLIENTE \n \n ¿CÓMO PUEDO PONERME EN CONTACTO CON SERVICIO AL CLIENTE? \n Durante todo el proceso de compra o la interacción con la plataforma estará habilitado el chat de WhatsApp, a través del cual tendrá respuesta en el menor tiempo posible por nuestro equipo. Además podrá contactarse vía correo electrónico con el comercial asignado al momento de su vinculación. \n ¿CÓMO PUEDO ACTUALIZAR MIS DATOS O INFORMACION DE ENVIO? \n Para notificar cualquier cambio de información que altere tu proceso de compra o entrega de pedido (actualización de datos o razón social, dirección de envió o sucursales, etc.), deberás enviar un correo electrónico a: notificacionesb2b@stilotex.com, indicando tu número identificación, nombre, dato a reemplazar y dato actualizado, para que nuestro equipo proceda a hacer la actualización en el sistema y se vea reflejado en la plataforma. \n También podrás enviar la solicitud de actualización por medio del chat de WhatsApp, el cual estará habilitado en horario laboral L-V 8:00 a 5:00 pm \n ¿ME PUEDO RETRACTAR DE MI COMPRA? \n De acuerdo con el derecho de retracto consagrado por la ley 1480 art. 47, puedes hacerlo en un plazo máximo de 5 días \n Hábiles contados a partir de la fecha de entrega del producto. Además, deberás devolverlo en las mismas condiciones en las que lo recibiste. Los costos de transporte y de más que conlleve la devolución serán cubiertos por el consumidor. \n ¿POR QUÉ NO PASA NADA CUANDO HAGO CLIC EN ¨COMPRAR AHORA¨? \n Podría tratarse de un error de conexión. Por favor cierra la página web, borra el historial de tu navegación y asegúrate de tener habilitadas las cookies y las ventanas emergentes.\n ¿QUÉ PUEDO HACER SI TENGO DUDAS CON LA INTERACCION DE LA PLATAFORMA? \n Una vez cumplas con el proceso de vinculación como cliente Stilotex, junto a tus credenciales te enviaremos el manual de usuario en cual incluye instrucciones detalladas del contenido y uso de la plataforma web. Adicional tendrás la opción de consulta en línea a través del chat de WhatsApp que estará habilitado en horario laboral L-V 8:00 a 5:00 pm \n \n MARCA\n \n ¿QUIÉN ES STILOTEX? \n \n Para conocer más acerca de nosotros diríjase a nuestro sitio web www.Stilotex.com.",
+        "blockClass": "textostilo"
+      }
+    }
+
+}

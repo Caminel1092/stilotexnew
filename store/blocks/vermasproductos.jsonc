@@ -1,0 +1,88 @@
+{
+    "store.custom#vermasp": {
+      "blocks": [
+        "flex-layout.row#vermasp"
+      ]
+    },
+  
+    "flex-layout.row#vermasp": {
+      "children": [
+        "flex-layout.col#text-vermasp"
+      ]
+    },
+  
+    "flex-layout.col#text-vermasp": {
+      "children": [
+        "rich-text#title-vermasp",
+        "flex-layout.row#columnas"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#title-vermasp": {
+      "props": {
+        "text":
+        "## VER TODOS LOS PRODUCTOS",
+        "blockClass": "textoquien"
+      }
+    },
+    "flex-layout.row#columnas": {
+      "children": [
+        "flex-layout.col#text-vermasp1",
+        "flex-layout.col#text-vermasp2",
+        "flex-layout.col#text-vermasp3"
+      ],
+      "props": {
+        "blockClass": "textogen"
+      }
+    },
+    "flex-layout.col#text-vermasp1": {
+      "children": [
+        "rich-text#vermasp1"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "flex-layout.col#text-vermasp2": {
+      "children": [
+        "rich-text#vermasp2"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "flex-layout.col#text-vermasp3": {
+      "children": [
+        "rich-text#vermasp3"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#vermasp1": {
+      "props": {
+        "text": "## DEPORTES Y JUGUETERIA \n [ACCESORIOS FUTBOL](/DEPORTES-Y-JUGUETERIA/FUTBOL) \n [ACCESORIOS GIMNASIO](/Deportes/Gimnasio) \n [ACCESORIOS NATACION ](/DEPORTES-Y-JUGUETERIA/NATACION) \n [BALON FUTBOL](/balon%20futbol?_q=balon%20futbol&map=ft) \n [BALONES BASKETBALL](/balon%20basketball?_q=balon%20basketball&map=ft) \n [BALONES VOLLEYBALL](/voley?_q=voley&map=ft) \n [BOTELLA INFUSORA](/infusora?_q=infusora&map=ft) \n [BOTELLA TRITAN](/tritan?_q=tritan&map=ft) \n [CANCHAS FUTBOL](/cancha?_q=cancha&map=ft) \n [CARPA](/carpa?_q=carpa&map=ft) \n [CASCOS PROTECCION](/proteccion?_q=proteccion&map=ft) \n [GORRAS](/gorra?_q=gorra&map=ft) \n [GUANTES FUTBOL](/guantes%20futbol?_q=guantes%20futbol&map=ft) \n [GUANTES GIMNASIO](/guantes%20gym?_q=guantes%20gym&map=ft) \n [MALETAS](/DEPORTES-Y-JUGUETERIA/MALETAS) \n [MALLA PING PONG](/malla%20para%20tenis%20de%20mesa?_q=malla%20para%20tenis%20de%20mesa&map=ft) \n [MASCARAS Y GAFAS](/mascaras%20y%20gafas?_q=mascaras%20y%20gafas&map=ft) \n [MESA PING PONG](/mesa%20ping%20pog?_q=mesa%20ping%20pog&map=ft) \n [PATIN FAST](/fast?_q=fast&map=ft) \n [PATIN PROFESIONAL - LEGEND](/patines%20legend?_q=patines%20legend&map=ft) \n [PATIN RETRO](/retro?_q=retro&map=ft) \n [PATIN SEMIPROFESIONAL - ELECTRIC](/electric?_q=electric&map=ft) \n [PATINETA CRUISER](/cruiser?_q=cruiser&map=ft) \n [PATINETA LTECH](/ltech?_q=ltech&map=ft) \n [PELOTAS VINIBALL](/viniball?_q=viniball&map=ft) \n [RAQUETA PING PONG](/ping%20pong?_q=ping%20pong&map=ft) \n [ROPA NATACION](/natacion%20camiseta?_q=natacion%20camiseta&map=ft) \n [SCOOTER ELECTRICA](/scooter%20electrica?_q=scooter%20electrica&map=ft) \n [SCOOTER FLASHING](/scooter?_q=scooter&map=ft) \n [SET NATACION](/set%20natacion?_q=set%20natacion&map=ft) \n [SET PROTECCION RODADOS](/proteccion?_q=proteccion&map=ft) \n ",
+        "blockClass": "linkstexto"
+      }
+    },
+    "rich-text#vermasp2": {
+      "props": {
+        "text": "## HOGAR \n [ARTICULOS DE MESA Y COCINA](/mesa%20y%20cocina?_q=mesa%20y%20cocina&map=ft) \n [BATAS](/bata) \n [BOLSAS REUTILIZABLES](/bolsa?_q=bolsa&map=ft) \n [CLOSET](/closet?_q=closet&map=ft) \n [COJINES](/cojin?_q=cojin&map=ft) \n [CONTENEDORES PARA ORGANIZACIÓN](/organizador?_q=organizador&map=ft&page=3) \n [CORTINAS DE BAÑO ](/cortina%20de%20baño?_q=cortina%20de%20baño&map=ft) \n [DISPENSADORES DE BAÑO](/dispensador%20de%20baño?_q=dispensador%20de%20baño&map=ft) \n [EDREDONES](/edredon?_q=edredon&map=ft) \n [ESPONJAS](/esponja?_q=esponja&map=ft) \n [FILTROS](/filtro?_q=filtro&map=ft) \n [LAVANDERIA](/lavanderia?_q=lavanderia&map=ft) \n [ORGANIZACIÓN BAÑO](/organizador%20baño?_q=organizador%20baño&map=ft) \n [ORGANIZACIÓN COCINA](/organizador%20cocina?_q=organizador%20cocina&map=ft) \n [PAÑOS MICROFIBRA](/microfibra?_q=microfibra&map=ft) \n [SABANAS](/sabana) \n [TAPETES DE BAÑO ](/tapete%20baño?_q=tapete%20baño&map=ft) \n [TOALLAS CUERPO](/toalla%20cuerpo?_q=toalla%20cuerpo&map=ft) \n [TOALLAS MANOS](/toalla%20manos?_q=toalla%20manos&map=ft) \n [TURBANTE](/turbante?_q=turbante&map=ft) \n [UTENSILIOS DE COCINA](/cocina?_q=cocina&map=ft) \n ",
+        "blockClass": "linkstexto"
+      }
+    },
+    "rich-text#vermasp3": {
+      "props": {
+        "text": "## INFANTIL \n[CUNAS Y CORRALES](/cunas?_q=cunas&map=ft) \n [DESARROLLO Y ESTIMULACION](/desarrollo?_q=desarrollo&map=ft) \n [HIGIENE Y CUIDADO ](/infantil/higiene) \n [JUGUETES BAÑO](/juguetes%20de%20baño?_q=juguetes%20de%20baño&map=ft) \n [SEGURIDAD EN CASA](/seguridad%20en%20casa?_q=seguridad%20en%20casa&map=ft) \n [SEGURIDAD EN MOVILIDAD](/infantil%20seguridad%20en%20movilidad?_q=infantil%20seguridad%20en%20movilidad&map=ft) \n [TETEROS Y ACCESORIOS](/teteros%20y%20accesorios?_q=teteros%20y%20accesorios&map=ft) \n [VASOS](/vaso?_q=vaso&map=ft) \n",
+        "blockClass": "linkstexto"
+      }
+    }
+
+}

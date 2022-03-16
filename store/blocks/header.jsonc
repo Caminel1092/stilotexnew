@@ -1,0 +1,1914 @@
+{
+//Bloques del header
+
+  "header": {
+    "blocks": [
+    "header-layout.desktop",
+    "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+    "header-layout.desktop",
+    "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+    "flex-layout.row#desktopPre",
+    "flex-layout.row#desktop"
+    ]
+  },
+
+//Preheader
+
+  "flex-layout.row#desktopPre": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass":"Pre-header"
+    },
+    "children": [
+      "flex-layout.col#spacer",
+      "flex-layout.col#skip-desktop2",
+      "flex-layout.col#skip-desktop",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "iconLabel":"Mi cuenta"
+    }
+  },
+  "flex-layout.col#skip-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#headerc"]
+  },
+  "rich-text#headerc": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Mi credito](https://digitalepartner.com/PagosStilotex/formulario.html)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "help-message"
+    }
+  },
+  "flex-layout.col#skip-desktop2": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#headerc2"]
+  },
+  "rich-text#headerc2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Bulk Order](https://b2b.stilotex.com.co/Quickorder)",
+      "textColor": "black-90",
+      "font": "body",
+      "blockClass": "helpmesagebulk"
+    }
+  },
+
+//header
+
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": false,
+      "blockClass": "headerC"
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search-bar",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#websites"
+    ]
+  },
+  "flex-layout.col#search-bar":{
+    "props": {
+      "verticalAlign": "middle",
+      "width": "grow"
+    },
+    "children": ["search-bar"]
+  },
+  "search-bar":{
+    "props":{
+      "maxWidth": "100%"
+    }
+  },
+  "vtex.menu@2.x:menu#websites": {
+    "children": [
+      "menu-item#categorys",
+      "menu-item#products",
+      "menu-item#Marcas",
+      "menu-item#ofertas"
+
+    ]
+  },
+  //Menu Categorys
+  "menu-item#categorys":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Categoría"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#category"]
+  },
+  "vtex.menu@2.x:submenu#category": {
+    "children": [
+      "vtex.menu@2.x:menu#Category1",
+      "vtex.menu@2.x:menu#Category2",
+      "vtex.menu@2.x:menu#Category3"  
+    ],
+    "props":{
+      "id":"menusecunario"
+    }
+  },
+  //Columnas Categorys
+  "vtex.menu@2.x:menu#Category1": {
+    "children": [
+      "menu-item#Category1",
+      "menu-item#Category2",
+      "menu-item#Category3",
+      "menu-item#Category4",
+      "menu-item#Category5",
+      "menu-item#Category6",
+      "menu-item#Category7",
+      "menu-item#Category8",
+      "menu-item#Category9",
+      "menu-item#Category10",
+      "menu-item#Category101"
+    ]
+  },
+  "vtex.menu@2.x:menu#Category2": {
+    "children": [
+      "menu-item#Category11",
+      "menu-item#Category12",
+      "menu-item#Category13",
+      "menu-item#Category14",
+      "menu-item#Category15",
+      "menu-item#Category16",
+      "menu-item#Category17",
+      "menu-item#Category18",
+      "menu-item#Category19",
+      "menu-item#Category20",
+      "menu-item#Category201"
+
+    ]
+  },
+  "vtex.menu@2.x:menu#Category3": {
+    "children": [
+      "menu-item#Category21",
+      "menu-item#Category22",
+      "menu-item#Category23",
+      "menu-item#Category24",
+      "menu-item#Category25",
+      "menu-item#Category26",
+      "menu-item#Category27",
+      "menu-item#Category28",
+      "menu-item#Category29",
+      "menu-item#Category30",
+      "menu-item#Category301"
+    ]
+  },
+  //Links productos
+  "menu-item#Category1":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Deportes y Jugueteria"
+      }
+    }
+  },
+  "menu-item#Category2":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/basketball?_q=basketball&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Basketball"
+      }
+    }
+  },
+  "menu-item#Category3":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botella?_q=botella&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Botellas"
+      }
+    }
+  },
+  "menu-item#Category4":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/FUTBOL",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Futbol"
+      }
+    }
+  },
+  "menu-item#Category5":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes/Gimnasio",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Gimnasio"
+      }
+    }
+  },
+  "menu-item#Category6":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Jugueteria"
+      }
+    }
+  },
+  "menu-item#Category7":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/MALETAS",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Maletas"
+      }
+    }
+  },
+  "menu-item#Category8":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/NATACION",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Natacion"
+      }
+    }
+  },
+  "menu-item#Category9":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/OUTDOOR",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Outdoor"
+      }
+    }
+  },
+  "menu-item#Category10":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/patines?_q=patines&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Patines"
+      }
+    }
+  },
+  "menu-item#Category101":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vermasc",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#Category11":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Hogar"
+      }
+    }
+  },
+  "menu-item#Category12":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/aseo?_q=aseo&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Aseo"
+      }
+    }
+  },
+  "menu-item#Category13":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bata?_q=bata&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Batas"
+      }
+    }
+  },
+  "menu-item#Category14":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cogines",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Cogines"
+      }
+    }
+  },
+  "menu-item#Category15":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar/complementos",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Complementos de Baño"
+      }
+    }
+  },
+  "menu-item#Category16":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/edredon?_q=edredon&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Edredones"
+      }
+    }
+  },
+  "menu-item#Category17":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa%20y%20cocina?_q=mesa%20y%20cocina&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Mesa y Cocina"
+      }
+    }
+  },
+  "menu-item#Category18":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacion?_q=organizacion&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Organizacion"
+      }
+    }
+  },
+  "menu-item#Category19":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sabanas?_q=sabanas&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Sabanas"
+      }
+    }
+  },
+  "menu-item#Category20":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/toalla?_q=toalla&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Toallas"
+      }
+    }
+  },
+  "menu-item#Category201":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vermasc",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#Category21":{
+    "props": {
+      "id": "title",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Infantil",
+        "noFollow": false,
+        "tagTitle": "Title",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#Category22":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/INFANTIL/ALIMENTACIoN-Y-LACTANCIA",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Alimentación y lactancia"
+      }
+    }
+  },
+  "menu-item#Category23":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil/dormitorio-bebe?initialMap=c&initialQuery=infantil",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Dormitorio Bebé"
+      }
+    }
+  },
+  "menu-item#Category24":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/INFANTIL/JUGUETES-DE-BEBE",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Juguetes de Bebé"
+      }
+    }
+  },
+  "menu-item#Category25":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil/salud-y-cuidado-del-bebe?initialMap=c&initialQuery=infantil",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Salud y cuidado del Bebé"
+      }
+    }
+  },
+  "menu-item#Category26":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil/seguridad-infantil?initialMap=c&initialQuery=infantil",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Seguridad infantil"
+      }
+    }
+  },
+  "menu-item#Category27":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#Category28":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#Category29":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#Category30":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#Category301":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vermasc",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+
+  //Menu products
+  "menu-item#products": {
+    "props": {
+      "id": "menu-item-product",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Productos",
+        "text": "Productos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#product"]
+  },
+  "vtex.menu@2.x:submenu#product": {
+    "children": [
+      "vtex.menu@2.x:menu#product1",
+      "vtex.menu@2.x:menu#product2",
+      "vtex.menu@2.x:menu#product3"
+    ],
+    "props":{
+      "id":"menuprimario"
+    }
+  },
+  //Columnas   //Sub menu products
+  "vtex.menu@2.x:menu#product1": {
+    "children": [
+      "menu-item#products1",
+      "menu-item#products2",
+      "menu-item#products3",
+      "menu-item#products4",
+      "menu-item#products5",
+      "menu-item#products6",
+      "menu-item#products7",
+      "menu-item#products8",
+      "menu-item#products9",
+      "menu-item#products10",
+      "menu-item#products11",
+      "menu-item#products12",
+      "menu-item#products13",
+      "menu-item#products14",
+      "menu-item#products15",
+      "menu-item#products151",
+      "menu-item#products150"
+    ]
+  },
+  "vtex.menu@2.x:menu#product2": {
+    "children": [
+      "menu-item#products16",
+      "menu-item#products301",
+      "menu-item#products17",
+      "menu-item#products18",
+      "menu-item#products19",
+      "menu-item#products20",
+      "menu-item#products21",
+      "menu-item#products22",
+      "menu-item#products23",
+      "menu-item#products24",
+      "menu-item#products25",
+      "menu-item#products26",
+      "menu-item#products27",
+      "menu-item#products28",
+      "menu-item#products29",
+      "menu-item#products30",
+      "menu-item#products300"
+    ]
+  },
+  "vtex.menu@2.x:menu#product3": {
+    "children": [
+      "menu-item#products31",
+      "menu-item#products32",
+      "menu-item#products33",
+      "menu-item#products34",
+      "menu-item#products451",
+      "menu-item#products35",
+      "menu-item#products36",
+      "menu-item#products37",
+      "menu-item#products38",
+      "menu-item#products39",
+      "menu-item#products40",
+      "menu-item#products41",
+      "menu-item#products42",
+      "menu-item#products43",
+      "menu-item#products44",
+      "menu-item#products45",
+      "menu-item#products450"
+    ]
+  },
+  //Links   //Sub menu products
+  "menu-item#products1":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Deportes y Juguteria"
+      }
+    }
+  },
+  "menu-item#products2":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/futbol?_q=futbol&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Accesorios Futbol"
+      }
+    }
+  },
+  "menu-item#products3":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Deportes/Gimnasio",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Accesorios Gymnasio"
+      }
+    }
+  },
+  "menu-item#products4":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/NATACION",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Accesorios Natación"
+      }
+    }
+  },
+  "menu-item#products5":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balon%20futbol?_q=balon%20futbol&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Balones Futbol"
+      }
+    }
+  },
+  "menu-item#products6":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balon%20basketball?_q=balon%20basketball&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Balones Basketball"
+      }
+    }
+  },
+  "menu-item#products7":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balon%20voley?_q=balon%20voley&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Balon volleyball"
+      }
+    }
+  },
+  "menu-item#products8":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botella%20infusora?_q=botella%20infusora&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Botella infusora"
+      }
+    }
+  },
+  "menu-item#products9":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/botella%20tritan?_q=botella%20tritan&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Botella tritan"
+      }
+    }
+  },
+  "menu-item#products10":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cancha?_q=cancha&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Canchas de futbol"
+      }
+    }
+  },
+  "menu-item#products11":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/carpa?_q=carpa&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Carpas"
+      }
+    }
+  },
+  "menu-item#products12":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/casco?_q=casco&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Cascos protección"
+      }
+    }
+  },
+  "menu-item#products13":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gorra?_q=gorra&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Gorras"
+      }
+    }
+  },
+  "menu-item#products14":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guantes%20futbol?_q=guantes%20futbol&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Guantes de futbol"
+      }
+    }
+  },
+  "menu-item#products15":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/guantes%20gym?_q=guantes%20gym&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Guantes GYM"
+      }
+    }
+  },
+  "menu-item#products151":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/DEPORTES-Y-JUGUETERIA/MALETAS",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Maletas"
+      }
+    }
+  },
+  "menu-item#products150":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vermasp",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#products16":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Hogar",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Hogar"
+      }
+    }
+  },
+  "menu-item#products301":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mesa%20y%20cocina?_q=mesa%20y%20cocina&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Artículos de mesa y cocina"
+      }
+    }
+  },
+  "menu-item#products17":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bata?_q=bata&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Batas"
+      }
+    }
+  },
+  "menu-item#products18":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsa%20?_q=bolsa%20&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Bolsas reutilizables"
+      }
+    }
+  },
+  "menu-item#products19":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/closet?_q=closet&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Closet"
+      }
+    }
+  },
+  "menu-item#products20":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cojin?_q=cojin&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Cojines"
+      }
+    }
+  },
+  "menu-item#products21":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contenedor%20organizacion?_q=contenedor%20organizacion&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Contenedores Para Organización"
+      }
+    }
+  },
+  "menu-item#products22":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cortina?_q=cortina&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Cortinas de baño"
+      }
+    }
+  },
+  "menu-item#products23":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/dispensador%20baño?_q=dispensador%20baño&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Dispensador de baño"
+      }
+    }
+  },
+  "menu-item#products24":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/edredon?_q=edredon&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Edredones"
+      }
+    }
+  },
+  "menu-item#products25":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esponja?_q=esponja&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Esponjas"
+      }
+    }
+  },
+  "menu-item#products26":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/filtro?_q=filtro&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Filtros"
+      }
+    }
+  },
+  "menu-item#products27":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lavanderia?_q=lavanderia&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Lavanderia"
+      }
+    }
+  },
+  "menu-item#products28":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizacion%20baño?_q=organizacion%20baño&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Organización baño"
+      }
+    }
+  },
+  "menu-item#products29":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizador?_q=organizador&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Organización cocina"
+      }
+    }
+  },
+  "menu-item#products30":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/microfibra?_q=microfibra&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Microfibra"
+      }
+    }
+  },
+  "menu-item#products300":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vermasp",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#products31":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Infantil",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Infantil"
+      }
+    }
+  },
+  "menu-item#products32":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corral?_q=corral&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Cunas y corrales"
+      }
+    }
+  },
+  "menu-item#products33":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/desarrollo%20y%20estimulacion?_q=desarrollo%20y%20estimulacion&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Desarrollo y estimulación"
+      }
+    }
+  },
+  "menu-item#products34":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/higiene?_q=higiene&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Higiene y cuidado"
+      }
+    }
+  },
+  "menu-item#products451":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/juguete%20de%20baño?_q=juguete%20de%20baño&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Juguetes de baño"
+      }
+    }
+  },
+  "menu-item#products35":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/infantil/seguridad-infantil?initialMap=c&initialQuery=infantil",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Seguridad en casa"
+      }
+    }
+  },
+  "menu-item#products36":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/seguridad%20movilidad?_q=seguridad%20movilidad&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Seguridad movilidad"
+      }
+    }
+  },
+  "menu-item#products37":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tetero?_q=tetero&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Teteros y accesorios"
+      }
+    }
+  },
+  "menu-item#products38":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vaso?_q=vaso&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Vasos"
+      }
+    }
+  },
+  "menu-item#products39":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products40":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products41":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products42":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products43":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products44":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products45":{
+    "props": {
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#products450":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vermasp",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  //Menu Marcas
+  "menu-item#Marcas":{
+      "props": {
+        "id": "menu-item-marcas",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Marcas",
+          "text": "Marcas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#Marcas"]
+  },
+  "vtex.menu@2.x:submenu#Marcas": {
+    "children": [
+      "vtex.menu@2.x:menu#Marcas1",
+      "vtex.menu@2.x:menu#Marcas2",
+      "vtex.menu@2.x:menu#Marcas3",
+      "vtex.menu@2.x:menu#Marcas4"
+    ],
+    "props":{
+      "id":"menuprimario"
+    }
+  },
+  //Columnas   //Sub menu products
+  "vtex.menu@2.x:menu#Marcas1": {
+    "children": [
+      "menu-item#Marcas1",
+      "menu-item#Marcas2",
+      "menu-item#Marcas3",
+      "menu-item#Marcas4"
+    ]
+  },
+  "vtex.menu@2.x:menu#Marcas2": {
+    "children": [
+      "menu-item#Marcas5",
+      "menu-item#Marcas6",
+      "menu-item#Marcas7",
+      "menu-item#Marcas8"
+    ]
+  },
+  "vtex.menu@2.x:menu#Marcas3": {
+    "children": [
+      "menu-item#Marcas9",
+      "menu-item#Marcas10",
+      "menu-item#Marcas11",
+      "menu-item#Marcas12"
+    ]
+  },
+  "vtex.menu@2.x:menu#Marcas4": {
+    "children": [
+      "menu-item#Marcas13",
+      "menu-item#Marcas14",
+      "menu-item#Marcas15",
+      "menu-item#Marcas16",
+      "menu-item#Marcas160"
+    ]
+  },
+  //Links de marcas
+  "menu-item#Marcas1":{
+    "props": {
+      "blockClass":"marca1", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/viniball",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "viniball"
+      }
+    }
+  },
+  "menu-item#Marcas2":{
+    "props": {
+      "blockClass":"marca2", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bium?_q=bium&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "bium"
+      }
+    }
+  },
+  "menu-item#Marcas3":{
+    "props": {
+      "blockClass":"marca3", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/essenza",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "essenza"
+      }
+    }
+  },
+  "menu-item#Marcas4":{
+    "props": {
+      "blockClass":"marca4", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/soyekids",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "soyekids"
+      }
+    }
+  },
+  "menu-item#Marcas5":{
+    "props": {
+      "blockClass":"marca5", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/so%20young",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "soyoung"
+      }
+    }
+  },
+  "menu-item#Marcas6":{
+    "props": {
+      "blockClass":"marca6", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/stilocafe",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "stilocafe"
+      }
+    }
+  },
+  "menu-item#Marcas7":{
+    "props": {
+      "blockClass":"marca7", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zoom",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "zoom"
+      }
+    }
+  },
+  "menu-item#Marcas8":{
+    "props": {
+      "blockClass":"marca8", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cybex",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "cybex"
+      }
+    }
+  },
+  "menu-item#Marcas9":{
+    "props": {
+      "blockClass":"marca9", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/gb",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "gb"
+      }
+    }
+  },
+  "menu-item#Marcas10":{
+    "props": {
+      "blockClass":"marca10", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/joovy",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "joovy"
+      }
+    }
+  },
+  "menu-item#Marcas11":{
+    "props": {
+      "blockClass":"marca11", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/joseph-joseph",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "joseph joseph"
+      }
+    }
+  },
+  "menu-item#Marcas12":{
+    "props": {
+      "blockClass":"marca12", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maclaren",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "maclaren"
+      }
+    }
+  },
+  "menu-item#Marcas13":{
+    "props": {
+      "blockClass":"marca13", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/uppababy",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "uppababy"
+      }
+    }
+  },
+  "menu-item#Marcas14":{
+    "props": {
+      "blockClass":"marca14", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/zuru",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "zuru"
+      }
+    }
+  },
+  "menu-item#Marcas15":{
+    "props": {
+      "blockClass":"marca15", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/avengers",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "avengers"
+      }
+    }
+  },
+  "menu-item#Marcas16":{
+    "props": {
+      "blockClass":"marca16", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/baby shark",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "baby shark"
+      }
+    }
+  },
+  "menu-item#Marcas160":{
+    "props": {
+      "id": "menu-item-categoria",
+      "blockClass":"final", 
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/busca?_q=H:151&map=ft",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "Ver Todo"
+      }
+    }
+  },
+  "menu-item#ofertas":{
+      "props": {
+        "id": "menu-item-ofertas",
+        "blockClass": "rojoc",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "Ofertas Exclusivas",
+          "text": "Ofertas Exclusivas"
+        }
+      },
+      "blocks": ["vtex.menu@2.x:submenu#ofertas"]
+  },
+  "vtex.menu@2.x:submenu#ofertas": {
+    "children": [
+      "vtex.menu@2.x:menu#ofertas1"
+    ],
+    "props":{
+      "id":"menuprimario",
+      "blockClass":"menuofertas"
+    }
+  },
+  "vtex.menu@2.x:menu#ofertas1": {
+    "children": [
+      "menu-item#ofertas1",
+      "menu-item#ofertas2",
+      "menu-item#ofertas3"
+    ]
+  },
+  "menu-item#ofertas1":{
+    "props": {
+      "blockClass":"oferta", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/viniball",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "viniball"
+      }
+    }
+  },
+  "menu-item#ofertas2":{
+    "props": {
+      "blockClass":"oferta", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/viniball",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "viniball"
+      }
+    }
+  },
+  "menu-item#ofertas3":{
+    "props": {
+      "blockClass":"oferta", 
+      "id": "menu-item-categoria",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/viniball",
+        "noFollow": false,
+        "tagTitle": "Categoría",
+        "text": "viniball"
+      }
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow",
+      "blockClass": "espacio"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logostilotex.png",
+      "width": "150"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["flex-layout.row#mobile"]
+  },
+  "flex-layout.row#mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": false
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}

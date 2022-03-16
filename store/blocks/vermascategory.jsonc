@@ -1,0 +1,88 @@
+{
+    "store.custom#vermasc": {
+      "blocks": [
+        "flex-layout.row#vermasc"
+      ]
+    },
+  
+    "flex-layout.row#vermasc": {
+      "children": [
+        "flex-layout.col#text-vermasc"
+      ]
+    },
+  
+    "flex-layout.col#text-vermasc": {
+      "children": [
+        "rich-text#title-vermasc",
+        "flex-layout.row#columnas2"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+  
+    "rich-text#title-vermasc": {
+      "props": {
+        "text":
+        "## VER TODOS LOS CATEGORIAS",
+        "blockClass": "textoquien"
+      }
+    },
+    "flex-layout.row#columnas2": {
+      "children": [
+        "flex-layout.col#text-vermasc1",
+        "flex-layout.col#text-vermasc2",
+        "flex-layout.col#text-vermasc3"
+      ],
+      "props": {
+        "blockClass": "textogen"
+      }
+    },
+    "flex-layout.col#text-vermasc1": {
+      "children": [
+        "rich-text#vermasc1"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "flex-layout.col#text-vermasc2": {
+      "children": [
+        "rich-text#vermasc2"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "flex-layout.col#text-vermasc3": {
+      "children": [
+        "rich-text#vermasc3"
+      ],
+      "props": {
+        "blockclass": "textColumn",
+        "preventVerticalStretch": true
+      }
+    },
+    "rich-text#vermasc1": {
+      "props": {
+        "text": "## DEPORTES Y JUGUETERIA \n [BASKETBALL](/basketball?_q=basketball&map=ft) \n [BOTELLAS](/botella?_q=botella&map=ft) \n [FUTBOL](/futbol?_q=futbol&map=ft) \n [GIMNASIO](/Deportes/Gimnasio) \n [JUGUETERIA](/DEPORTES-Y-JUGUETERIA) \n [MALETAS](/DEPORTES-Y-JUGUETERIA/MALETAS) \n [NATACION](/DEPORTES-Y-JUGUETERIA/NATACION) \n [OUTDOOR](/DEPORTES-Y-JUGUETERIA/OUTDOOR) \n [PATINES](/patines?_q=patines&map=ft) \n [PATINETAS](/patineta?_q=patineta&map=ft) \n [PING PONG](/ping%20pong?_q=ping%20pong&map=ft) \n [PROTECCION RODADOS](/proteccion?_q=proteccion&map=ft) \n [SCOOTER](/scooter?_q=scooter&map=ft) \n [VESTUARIO](/DEPORTES-Y-JUGUETERIA/VESTUARIO) \n [VOLLEYBALL](/voley?_q=Voley&map=ft) \n ",
+        "blockClass": "linkstexto"
+      }
+    },
+    "rich-text#vermasc2": {
+      "props": {
+        "text": "## HOGAR \n [ASEO](/aseo?_q=aseo&map=ft) \n [BATAS](/bata?_q=bata&map=ft) \n [COJINES](/cojin?_q=cojin&map=ft) \n [COMPLEMENTOS DE BAÑO](//Hogar/complementos) \n [EDREDONES](/edredon?_q=edredon&map=ft) \n [MESA Y COCINA](/mesa%20y%20cocina?_q=mesa%20y%20cocina&map=ft) \n [ORGANIZACIÓN](/organizacion?_q=organizacion&map=ft) \n [SABANAS](/sabanas?_q=sabanas&map=ft) \n [TOALLAS](/toalla?_q=toalla&map=ft) \n",
+        "blockClass": "linkstexto"
+      }
+    },
+    "rich-text#vermasc3": {
+      "props": {
+        "text": "## INFANTIL \n [ALIMENTACIÓN Y LACTANCIA](/INFANTIL/ALIMENTACIoN-Y-LACTANCIA) \n [DORMITORIO BEBE](/infantil/dormitorio-bebe?initialMap=c&initialQuery=infantil) \n [JUGUETES DE BEBE](/INFANTIL/JUGUETES-DE-BEBE) \n [SALUD Y CUIDADO DEL BEBE](/infantil/salud-y-cuidado-del-bebe?initialMap=c&initialQuery=infantil) \n [SEGURIDAD INFANTIL](/infantil/seguridad-infantil?initialMap=c&initialQuery=infantil) \n",
+        "blockClass": "linkstexto"
+      }
+    }
+
+}

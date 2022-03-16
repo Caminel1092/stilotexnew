@@ -1,0 +1,145 @@
+.flexRow--Pre-header {
+    background: black;
+    height: 23px;
+}
+.flexCol--espacio {
+    height: 50%;
+}
+.flexRowContent--Pre-header{
+  height: 23px;
+  max-height: 23px;
+}
+.stretchChildrenWidth.flex{
+  margin: 20px 0 0 0;
+}
+.flexColChild--buyc{
+  max-height: 20px;
+
+}
+
+.flexRow--categorys{
+  margin: 0 100px 0 100px;
+}
+.flexCol--textosIcno1, .flexCol--textosIcno2, .flexCol--textosIcno3{
+  display: flex;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  flex-direction: initial;
+  justify-content: start;
+}
+.flexRowContent--medios{
+  width: auto;
+}
+.flexColChild--textosIcno1, .flexColChild--textosIcno2, .flexColChild--textosIcno3{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.flexRowContent--medios{
+  margin: 100px 100px 100px 80px;
+}
+.flexCol--textosIcno3{
+  max-width: 500px;
+}
+.flexRow--footercon{
+  margin: 80px 100px 0px 100px;
+  padding-bottom: 40px;
+
+}
+.flexRow--footerimg{
+  filter: invert(1);
+  margin: 30px 80px 30px 80px ;
+}
+.flexColChild--footerC{
+  color: white;
+  font-size: 12px;
+  font-weight: 100;
+  max-height: 50px;
+  height: auto !important;
+}
+.flexRowContent--footercon .stretchChildrenWidth {
+  width: 12.5% !important;
+}
+.flexRow--lastF{
+  margin: 80px 35px 0px;
+  background: #1c1b1b;
+  justify-content: space-between;
+  padding-bottom: 30px;
+
+}
+.flexRowContent--lastF {
+ align-items: center; 
+}
+.flexRow--contenedorC{
+  margin: 0 100px 0 100px;
+}
+.flexRow--headerC{
+  background-color: white;
+}
+.flexRow--product{
+  margin: 0 100px 0 100px;
+}
+.flexRowContent--product{
+  padding-top: 0px;
+}
+.flexCol--buyc{
+  padding:7px 0 ;
+}
+.flexRowContent--productbuy{
+  border-radius: 25px;
+  align-items: center;
+  font-size: 18px;
+}
+
+.flexRow--productbuy {
+  display: flex;
+}
+.flexCol--buyc :global(.vtex-button){
+  width: 100%  !important;
+}
+.flexCol--buyc :global(.vtex-button__label){
+  width: 100%  !important;
+  padding: 0  !important;
+  min-height: 25px;
+}
+.flexRowContent--productbuy :global(.vtex-button__label){
+  max-height: 40px;
+  padding: 0 !important;
+  width: 100% !important;
+}
+.flexRowContent--productbuy :global(.vtex-button){
+  width: 100% !important;
+}
+.flexRowContent--productbuy  .stretchChildrenWidth{
+  padding: 0;
+  margin: 0 10px 0 0;
+}
+.flexRowContent--cantidadC .flexColChild--itemsC {
+  opacity: 0;
+}
+.flexRow--textogen{
+  margin: 0 100px;
+}
+.flexRow--quickc {
+  margin: 0 100px 0 100px;
+}
+
+.stretchChildrenWidth {
+  position: relative;
+}
+
+
+.flexCol--buyc {
+  position: absolute;
+  bottom: 0;
+}
+
+.flexRow--cantidadC {  
+  position: absolute;
+  bottom: 7%;
+  width: 90%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
